@@ -1,0 +1,53 @@
+<!DOCTYPE HTML>
+<html>
+  <head>
+    <title>Number Game</title>
+    <script src="default.js"></script>
+    <link rel="stylesheet" href="default.css" />
+  </head>
+  <body onload="init()">
+    <div class="main" id="header">
+      Number Game
+    </div>
+    <div class="instructions" id="instructions">
+      Press the number on the left that corresponds to the number of circles you see on the screen.
+    </div>
+    <div class="main" id="gameArea">
+      <div id="buttons">
+        <input id="btn0" type="button" class="numberButton" value="0" onclick="clickHandler(0)" />
+        <input id="btn1" type="button" class="numberButton" value="1" onclick="clickHandler(1)" />
+        <br />
+        <input id="btn2" type="button" class="numberButton" value="2" onclick="clickHandler(2)" />
+        <input id="btn3" type="button" class="numberButton" value="3" onclick="clickHandler(3)" />
+        <br />
+        <input id="btn4" type="button" class="numberButton" value="4" onclick="clickHandler(4)" />
+        <input id="btn5" type="button" class="numberButton" value="5" onclick="clickHandler(5)" />
+        <br />
+        <input id="btn6" type="button" class="numberButton" value="6" onclick="clickHandler(6)" />
+        <input id="btn7" type="button" class="numberButton" value="7" onclick="clickHandler(7)" />
+        <br />
+        <input id="btn8" type="button" class="numberButton" value="8" onclick="clickHandler(8)" />
+        <input id="btn9" type="button" class="numberButton" value="9" onclick="clickHandler(9)" />
+      </div>
+      <div id="circles">
+        <canvas id="gameCanvas" height="500" width="500">
+          <p>
+            Your browser doesn't support HTML5.  Consider updating your browser.
+          </p><p>
+            Google Chrome:<br /><a href="http://chrome.google.com">http://chrome.google.com</a>
+          </p><p>
+            Mozilla Firefox:<br /><a href="http://www.mozilla.com">http://www.mozilla.com</a>
+          </p><p>
+            Microsoft Internet Explorer 9:<br /><a href="http://windows.microsoft.com/en-US/internet-explorer/downloads/ie">http://windows.microsoft.com/en-US/internet-explorer/downloads/ie</a>
+          </p>
+        </canvas>
+      </div>
+      <div id="statusBar">
+        statusBar
+      </div>
+      <div id="copyright">
+        &copy; 2012 <a href="mailto:JakesAddress@gmail.com">John H. Moe</a>
+      </div>
+    </div>
+  </body>
+</html>

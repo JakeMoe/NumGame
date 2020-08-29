@@ -1,0 +1,47 @@
+canvas {
+  border: 1px solid black;
+}
+
+.main {
+  width: 710px;
+}
+
+.numberButton {
+  font-size: 72px;
+  font-weight: bold;
+  height: 100px;
+  width: 100px;
+}
+
+#buttons {
+  float: left;
+  width: 205px;
+}
+
+#circles {
+  float: left;
+  width: 505px;
+}
+
+#copyright {
+  text-align: center;
+}
+
+#header {
+  font-family: serif;
+  font-size: 24pt;
+  font-weight: bold;
+  text-align: center;
+  width: 710px;
+}
+
+#instructions {
+  font-weight: bold;
+  text-align: center;
+  width: 710px;
+}
+
+#statusBar {
+  float: clear;
+  width: 710px;
+}
